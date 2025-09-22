@@ -1,10 +1,11 @@
-## (Sway + Waybar + Wofi + Foot) config files
-These are my personal configuration files for **Sway**, **Waybar**, **foot** and **Wofi**.  
+## (Sway + Waybar + Wofi + Alacritty) config files
+These are my personal configuration files for **Sway**, **Waybar**, **Alacritty** and **Wofi**.  
 
 I use these configs to customize my tiling window manager setup, including:  
 - Sway layout and keybindings  
 - Waybar status bar with custom styling  
 - Wofi application launcher
+- Alacritty terminal
 
 > ⚡ **Note:** This setup is intentionally **clean, minimal, and simple**, focusing on usability and efficiency rather than flashy visuals. It's a great starting point for anyone learning Sway and its ecosystem.
 
@@ -27,7 +28,7 @@ git clone https://github.com/notthatmojo/sway-config.git
    cp -r sway-config/sway ~/.config/
    cp -r sway-config/waybar ~/.config/
    cp -r sway-config/wofi ~/.config/  
-   cp -r sway-config/foot ~/.config/
+   cp -r sway-config/alacritty ~/.config/
 
 4. Reload Sway to apply changes:
 Ctrl+Shift+C or in the terminal "swaymsg relaod"
