@@ -24,7 +24,7 @@ set $menu wofi --show
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/omojo/Pictures/wallpapers/Тоолллл.jpg fill
+output * bg /home/omojo/Pictures/wallpapers/gradient_2.jpg fill
 #
 # Example configuration:
 #
@@ -85,6 +85,10 @@ client.unfocused        #444444 #444444 #FFFFFF #444444
     # Start your file manager
     bindsym $mod+z exec nautilus
     bindsym $mod+h exec smile
+
+#cursor theme
+    # seat seat0 xcursor_theme WinSur-dark-cursors 24
+    seat seat0 xcursor_theme capitaine-cursors 24
 
 
     # Lock Screen
