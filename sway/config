@@ -17,7 +17,7 @@ set $mod Mod4
 # set $up k
 # set $right l
 # Your preferred terminal emulator
-set $term foot
+set $term alacritty
 # Your preferred application launcher
 set $menu wofi --show
 
